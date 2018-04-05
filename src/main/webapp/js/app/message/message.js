@@ -23,7 +23,7 @@ $(function () {
 
 
     searchModel = [
-        {"param": "locName", "paramDesc": "名称"},
+        {"param": "title", "paramDesc": "标题"},
         {"param": "status", "paramDesc": "状态"}
     ];
 

@@ -37,7 +37,7 @@ $(function () {
                 id: "b0df282a-0d67-40e5-8558-c9e93b7befed"
             };
         },
-        url: "/" + mainObject + "/data",
+        url: "/messageAudit/data",
         formatters: {
             "commands": showCommandsBtn
         },
