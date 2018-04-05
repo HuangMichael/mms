@@ -9,7 +9,7 @@ $(function () {
 
 //导出必须配置的两个量
     dataTableName = "#messageListTable";
-    docName = "留言信息表";
+    docName = "留言审核";
     mainObject = "message";
     formName = "#form";
 
