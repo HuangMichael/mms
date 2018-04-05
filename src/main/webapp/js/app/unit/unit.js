@@ -6,7 +6,7 @@
 
 $(function () {
     dataTableName = "#unitListTable";
-    docName = "外委单位";
+    docName = "组织机构";
     mainObject = "unit";
     formName = "#form";
     var searchVue = new Vue({
