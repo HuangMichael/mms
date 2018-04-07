@@ -23,7 +23,7 @@ $(function () {
 
 
     searchModel = [
-        {"param": "locName", "paramDesc": "名称"},
+        {"param": "title", "paramDesc": "名称"},
         {"param": "status", "paramDesc": "状态"}
     ];
 
@@ -37,7 +37,7 @@ $(function () {
                 id: "b0df282a-0d67-40e5-8558-c9e93b7befed"
             };
         },
-        url: "/messageAudit/data",
+        url: "/msgAudit/data",
         formatters: {
             "commands": showCommandsBtn
         },

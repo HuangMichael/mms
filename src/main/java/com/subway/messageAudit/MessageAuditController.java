@@ -30,7 +30,7 @@ import java.util.Map;
  */
 @Controller
 @EnableAutoConfiguration
-@RequestMapping("/messageAudit")
+@RequestMapping("/msgAudit")
 public class MessageAuditController extends BaseController {
 
 
