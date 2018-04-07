@@ -82,7 +82,7 @@ return ${subDirName}Service.delete(id);
 
 
 /**
-* @param ${comment} 信息
+* @param  ${subDirName} ${comment} 信息
 * @return 保存${comment}信息
 */
 @RequestMapping(value = "/save", method = RequestMethod.POST)

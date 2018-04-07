@@ -69,7 +69,7 @@ public class MessageController extends BaseController {
 
     /**
      * @param id
-     * @return 删除留言信息表信息
+     * @return 删除留言信息
      */
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
     @ResponseBody
@@ -79,7 +79,7 @@ public class MessageController extends BaseController {
 
 
     /**
-     * @param 留言信息表 信息
+     * @param message 留言信息
      * @return 保存留言信息表信息
      */
     @RequestMapping(value = "/save", method = RequestMethod.POST)
