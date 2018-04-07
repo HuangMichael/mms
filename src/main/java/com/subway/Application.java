@@ -18,13 +18,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * 初始化入口
  */
 @EnableTransactionManagement //启用事务管理
-@Configuration
-@EnableAutoConfiguration
 @ComponentScan
 @SpringBootApplication
 @EnableScheduling //开启调度
 @EnableCaching //开启缓存
-
 public class Application {
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(Application.class);
