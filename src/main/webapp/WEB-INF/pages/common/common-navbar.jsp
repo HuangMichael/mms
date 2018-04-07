@@ -6,7 +6,7 @@
         <div class="navbar-brand">
             <!-- COMPANY LOGO -->
             <a>
-                <img src="/img/logo/logo.png" alt="${sessionScope.sysName}" class="img-responsive" height="30"
+                <img src="/img/logo/logo.jpg" alt="${sessionScope.sysName}" class="img-responsive" height="30"
                      width="120">
             </a>
             <div class="visible-xs">

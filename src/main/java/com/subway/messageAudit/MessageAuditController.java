@@ -32,6 +32,8 @@ import java.util.Map;
 @EnableAutoConfiguration
 @RequestMapping("/messageAudit")
 public class MessageAuditController extends BaseController {
+
+
     private static Integer SEARCH_PARAM_SIZE = 2;
 
     @Autowired
@@ -53,7 +55,7 @@ public class MessageAuditController extends BaseController {
      */
     @RequestMapping(value = "/data", method = RequestMethod.POST)
     @ResponseBody
-    public MyPage data(HttpSession session, HttpServletRequest request, @RequestParam(value = "current", defaultValue = "0") int current, @RequestParam(value = "rowCount", defaultValue = "10") Long rowCount, @RequestParam(value = "searchPhrase", required = false) String searchPhrase) {
+    public MyPage data(HttpServletRequest request, @RequestParam(value = "current", defaultValue = "0") int current, @RequestParam(value = "rowCount", defaultValue = "10") Long rowCount, @RequestParam(value = "searchPhrase", required = false) String searchPhrase) {
         Map<String, String[]> parameterMap = request.getParameterMap();
         Pageable pageable = new PageRequest(current - 1, rowCount.intValue(), super.getSort(parameterMap));
         return new PageUtils().searchBySortService(messageSearchService, searchPhrase, SEARCH_PARAM_SIZE, current, rowCount, pageable);

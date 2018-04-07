@@ -20,7 +20,7 @@
                                     <div class="form-group" style="margin-bottom:10px;position:inherit"
                                          id="searchBox">
                                         <div class="col-md-2">
-                                            <input class="form-control" id="name" name="name" placeholder="关键字"/>
+                                            <input class="form-control" id="title" name="title" placeholder="关键字"/>
 
                                         </div>
                                         <div class="col-md-2">
@@ -33,7 +33,7 @@
                                             <%@include file="../common/common-searchBtn.jsp" %>
                                         </div>
                                     </div>
-                                    <table id="messageListTable"
+                                    <table id="messageAuditListTable"
                                            class="table table-bordered table-hover table-striped">
                                         <thead>
                                         <tr>

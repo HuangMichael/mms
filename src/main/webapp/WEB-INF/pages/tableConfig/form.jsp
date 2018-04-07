@@ -72,5 +72,4 @@
                 class="btn btn-danger">保存
         </button>
     </div>
-    </div>
 </form>

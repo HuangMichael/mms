@@ -81,6 +81,9 @@ public class BaseService {
             }
         }
         array[paramSize] = "01";
+        for (String str : array) {
+            log.info("str---------------" + str);
+        }
         return array;
     }
 

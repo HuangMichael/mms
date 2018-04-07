@@ -29,6 +29,7 @@ import java.util.Map;
 @EnableAutoConfiguration
 @RequestMapping("/message")
 public class MessageController extends BaseController {
+
     private static Integer SEARCH_PARAM_SIZE = 2;
 
     @Autowired

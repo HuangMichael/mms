@@ -1,7 +1,6 @@
 package com.subway.message;
 
 import java.util.List;
-import java.util.Map;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -20,18 +19,18 @@ public interface MessageRepository extends JpaRepository<Message, Long> {
 
 
     /**
-     * @param title
-     * @param status
-     * @param authKey
+     * @param title   标题
+     * @param status  状态
+     * @param authKey 授权码
      * @return
      */
     List<Message> findByTitleContainingAndStatusAndAuthKeyStartingWith(String title, String status, String authKey);
 
 
     /**
-     * @param title
-     * @param status
-     * @param authKey
+     * @param title   标题
+     * @param status  状态
+     * @param authKey 授权码
      * @return
      */
     Page<Message> findByTitleContainingAndStatusAndAuthKeyStartingWith(String title, String status, String authKey, Pageable pageable);
