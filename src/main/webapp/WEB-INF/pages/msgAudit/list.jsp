@@ -17,8 +17,7 @@
                         <div class="box-body">
                             <div id="contentDiv">
                                 <div class="box-body">
-                                    <div class="form-group" style="margin-bottom:10px;position:inherit"
-                                         id="searchBox">
+                                    <div class="form-group" style="margin-bottom:10px;position:inherit" id="searchBox">
                                         <div class="col-md-2">
                                             <input class="form-control" id="title" name="title" placeholder="关键字"/>
                                         </div>
